@@ -32,7 +32,7 @@ class CYBAudioSource {
   // or calling the AudioContext createGain() function
   //
   // Instead of using gain.setValueAtTime() and gain.linearRampToValueAtTime() we manually fade the audio using setInterval(). 
-  // This allows us to play audio sources that aren't syncronized yet still fade together regardless of the time index of each source.
+  // This allows us to play audio sources that aren't syncronized but still fade together regardless of the time index of each source.
   //
   
   //----------------------------------------------------------
